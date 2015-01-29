@@ -9,6 +9,9 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.3.*"
+        "zendframework/zendframework": "2.3.*",
+        "phpunit/phpunit": "4.4.0",
+        "phpunit/php-invoker": "1.1.3"
     }
+
 }
