@@ -14,8 +14,11 @@ use Zend\View\Model\ViewModel;
 
 class IndexController extends AbstractActionController
 {
-    public function indexAction()
-    {
+    public function indexAction(){
+
+
+
+        echo '<pre>';var_dump($this->getServiceLocator()->get('Config'));echo '</pre>';
         return new ViewModel();
     }
 
